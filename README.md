@@ -15,3 +15,8 @@ Welcome to SenseiQ, a fun and interactive quiz app designed to test your common 
 
 📁 Tech Stack 
 HTML5 | CSS | JavaScript
+
+🙋‍♀️ Author
+Created with ❤️ by Dua Noor
+LinkedIn Profile: https://pk.linkedin.com/in/dua-noor-75624a345
+GitHub: https://github.com/duanoori
