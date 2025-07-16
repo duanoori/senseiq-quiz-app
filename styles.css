@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+section {
+    min-height: 100vh;
+    background-image: url('https://th.bing.com/th/id/R.8db8598d07e68baea9ca8f6da559534e?rik=s%2fal%2fDs6FW7YDQ&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+    height: 80vh;
+    background-color: #fefefa;
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: #006994;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container h1 span {
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.container label {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: block;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00416a;
+}
+
+#optionsList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.option {
+  background-color: #fefefa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover,
+.option.selected {
+  background-color: #a29bfe;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.controls button {
+    margin: 0 auto;
+}
+
+#resultScreen .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* About Section Styling */
+#aboutScreen .container {
+  max-width: 600px;
+  background-color: #fefefa;
+  color: #333;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  line-height: 1.6;
+}
+
+#aboutScreen h2 {
+  color: #006994;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#aboutScreen p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+#aboutScreen ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+#aboutScreen ul li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+#aboutScreen button {
+  margin: 0 auto;
+}
